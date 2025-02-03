@@ -64,33 +64,7 @@ If it fails, an error message will appear.
 2. Click **Send Command** to send it.
 3. The log will display the sent command and any response.
 
-Example log output:
-
-```plaintext
-Sent: SetResolution 1920x1080
-Response: Success
-```
-
 ### Reconnecting to the Pipe
 If the connection is lost:
 1. Click **Reconnect** to attempt reconnection.
 2. A status message will appear in the log.
-
----
-
-## Troubleshooting
-
-- **Not connected to pipe error**
-  - Ensure the Virtual Display Driver is running.
-  - Click **Reconnect** and try again.
-
-- **No response from the driver**
-  - Check if the command syntax is correct.
-  - Confirm the driver is properly handling requests.
-
-- **Pipe connection failure**
-  - Verify that the named pipe exists and is accessible.
-  - Restart the Virtual Display Driver service.
-
-
-
